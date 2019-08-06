@@ -1,0 +1,14 @@
+load("@npm_angular_bazel//:index.bzl", "ng_module")
+
+ng_module(
+    name = "core",
+    srcs = [
+        "src/core.actions.ts",
+        "src/core.module.ts",
+        "src/core.reducers.ts",
+    ],
+    deps = [
+        "@npm//@ngrx/store",
+    ],
+)
+
