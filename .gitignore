@@ -4,3 +4,5 @@ bazel-genfiles
 bazel-*
 .DS_Store
 dist
+src/*.js
+src/*.d.ts

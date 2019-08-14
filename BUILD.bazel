@@ -1,10 +1,9 @@
-load("@npm_angular_bazel//:index.bzl", "ng_module")
+load("@npm_bazel_typescript//:index.bzl", "ts_library")
 
-ng_module(
-    name = "core",
+ts_library(
+    name = "bug",
     srcs = [
         "src/core.actions.ts",
-        "src/core.module.ts",
         "src/core.reducers.ts",
     ],
     deps = [

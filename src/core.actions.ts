@@ -12,6 +12,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
-import { createAction, props } from "@ngrx/store";
+import {createAction, props} from '@ngrx/store';
 
-export const meow = createAction("[Core] wow");
+export const meow = createAction('[Core] wow');

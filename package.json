@@ -1,7 +1,6 @@
 {
   "description": "runtime dependencies for bazel_managed_deps example",
   "devDependencies": {
-    "@angular/bazel": "^8.2.0",
     "@angular/cli": "^8.2.0",
     "@angular/compiler": "^8.2.0",
     "@angular/compiler-cli": "^8.2.0",
@@ -16,7 +15,7 @@
   },
   "scripts": {
     "postinstall": "ngc -p angular-metadata.tsconfig.json",
-    "test": "bazel test //..."
+    "tsc": "tsc -d src/core.*.ts"
   },
   "dependencies": {
     "@angular-devkit/build-angular": "^0.802.0",
